@@ -1,21 +1,23 @@
-### Low-Power
-Lightweight low power library for Arduino.
+# LowPower Library
+[![Build Status](https://travis-ci.com/LowPowerLab/LowPower.svg)](https://travis-ci.com/LowPowerLab/LowPower)
+[![GitHub release](https://img.shields.io/github/release/LowPowerLab/LowPower.svg)](https://github.com/LowPowerLab/LowPower)
+[![GitHub issues](https://img.shields.io/github/issues/LowPowerLab/LowPower.svg)](https://github.com/LowPowerLab/LowPower/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/LowPowerLab/LowPower.svg)](https://github.com/LowPowerLab/LowPower/pulls)
 
-Version: 1.81
+Lightweight low power library for AVR/SAMD21 Moteino boards.
+<br/>
+By Felix Rusu, [LowPowerLab.com](http://LowPowerLab.com)
+<br/>
+Forked from [Low-Power](https://github.com/rocketscream/Low-Power).
 
-Date: 21-01-2020
+Date: 08-08-2018
 
 Devices Supported:
-* ATMega88
 * ATMega168
-* ATMega168P
 * ATMega328P
 * ATMega32U4
 * ATMega644P
 * ATMega1284P
 * ATMega2560
 * ATMega256RFR2
-* ATSAMD21G18A
-
-####Notes:
-External interrupt during standby on ATSAMD21G18A requires a patch to the <a href="https://github.com/arduino/ArduinoCore-samd">Arduino SAMD Core</a> in order for it to work. Fix is provided by this particular <a href="https://github.com/arduino/ArduinoCore-samd/pull/90">pull request</a>.
+* ATSAMD21
